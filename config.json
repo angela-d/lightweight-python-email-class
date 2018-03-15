@@ -1,0 +1,15 @@
+{
+	"dev_alerts":{
+		"from"     			:"youremail@yourserver",
+		"to"       			:[
+											"dev1@yourserver",
+											"dev2@yourserver",
+											"dev3@yourserver"
+										],
+		"subject"       : "Alert Subject",
+		"message"       : "Body of the alert message you wish to receive.",
+		"server"        : "mail.yourserver",
+		"outgoing_port" : "465",
+		"pw"            : "yourpassword"
+	}
+}
