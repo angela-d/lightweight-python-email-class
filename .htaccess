@@ -1,0 +1,5 @@
+# 403 direct access to our config; this should be accessible for scripts inside the server, only
+# ideally, this would be placed inside the apache root config or virtualhost for the domain, instead of .htaccess
+<Files ~ "\.json$">
+  Require all denied
+</Files>
