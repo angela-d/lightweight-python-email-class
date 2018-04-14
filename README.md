@@ -11,7 +11,7 @@ Reusable class for Python with JSON config; ideal for plaintext alerts. Tested o
 
 Via terminal, run:
 ```bash
-git clone https://github.com/z0m8i3/simple-python-email-class.git && cd simple-python-email-class
+git clone https://github.com/angela-d/simple-python-email-class.git && cd simple-python-email-class
 
 chmod u+x versionCheck.py && cd ..
 ```
